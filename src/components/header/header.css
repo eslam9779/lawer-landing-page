@@ -1,0 +1,26 @@
+nav .navbar-nav a{
+    color: var(--mainColor);
+    font-size: 18px;
+    letter-spacing: 1;
+}
+
+nav .navbar-nav a:hover{
+    color: var(--mainColor);
+}
+
+.nav-link span{
+    color: var(--mainColor);
+    font-size: 18px;
+    
+}
+.nav-link button{
+
+    background-color: var(--secondaryColor);
+    color: #fff;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: transparent;
+    margin: 1rem 1rem;
+}
+
