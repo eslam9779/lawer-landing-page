@@ -1,0 +1,7 @@
+.container_div{
+    background-image: url(../../Assets/BGLine.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: 70% center ;
+    width: 100%;
+}

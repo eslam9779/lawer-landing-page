@@ -1,12 +1,13 @@
 import './App.css';
-import FirstSection from './components/first_section/FirstSection';
-import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Slider from './components/slider/Slider';
+
 
 function App() {
   return (
     < >
-      <Header/>
-      <FirstSection/>
+     <Home/>
+     <Slider/>
     </>
   );
 }
