@@ -1,0 +1,71 @@
+.MidSectionState{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.sec_p1{
+    background-color: #fff;
+    width: 634px;
+    height: 420px;
+    padding: 30px;
+    border-radius: 32px;
+    box-sizing: border-box;
+}
+.sec_p1 img{
+    width: 320px;
+    height: 281px;
+    margin-bottom: 10px;
+}
+
+.sec_p1 h3{
+    color: var(--mainColor);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.sec_p1 p{
+   width: 350px;
+}
+
+.MidSectionState button{
+    border-radius: 160px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 450;
+}
+
+.sec_p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 420px;
+    padding: 30px;
+    border-radius: 32px;
+    box-sizing: border-box;
+    width: 378px;
+
+}
+
+.sec_p2 h3{
+    color: var(--mainColor);
+}
+.sec_p2 p{
+ width: 210px;
+ font-size: 14px;
+ align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .sec_p2{
+        margin-top: 20px;
+    }
+}

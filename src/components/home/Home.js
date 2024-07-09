@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
-import Header from './../../pages/header/Header';
-import FirstSection from './../../pages/first_section/FirstSection';
+import Header from './../../sections/header/Header';
+import FirstSection from './../../sections/first_section/FirstSection';
 
 const Home = () => {
   return (

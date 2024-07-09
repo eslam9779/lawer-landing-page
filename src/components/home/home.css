@@ -2,6 +2,7 @@
     background-image: url(../../Assets/BGLine.png);
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-position: 70% center ;
+    /* background-position: 70% center ; */
+    background-position: 100%  ;
     width: 100%;
 }
