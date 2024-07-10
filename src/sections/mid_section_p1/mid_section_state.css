@@ -6,6 +6,11 @@
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+.sec_p1_s1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end !important;
+}
 .sec_p1{
     background-color: #fff;
     width: 634px;
@@ -26,6 +31,11 @@
     font-size: 30px;
 }
 
+.sec_p1_s2{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 .sec_p1 p{
    width: 350px;
 }
@@ -68,4 +78,82 @@
     .sec_p2{
         margin-top: 20px;
     }
+}
+
+@media screen and (max-width:1000px) {
+    
+    .sec_p1{
+        padding: 15px;
+    }
+    .MidSectionState button{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .sec_p1{
+        height: auto;
+    }
+    .sec_p1_s1{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center !important;
+       align-items: center !important;
+       padding: 10px;
+    }
+    .sec_p1 img{
+        width: 250px;
+        height: 251px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+
+    }
+    .sec_p1 h3{
+        font-size: 25px;
+    }
+
+   .sec_p1_s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+}
+
+@media screen and (max-width:400px) {
+    .sec_p1{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .sec_p1 h3 ,.sec_p2 h3{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }   
+    .sec_p1 p ,.sec_p2 p{
+        font-size: 10px;
+        width: 150px;
+        margin: 10px auto;
+    } 
+    .sec_p1 button ,.sec_p2 button{
+        font-size: 10px;
+        width: 150px;
+        margin: 10px auto;
+
+    }  
+    .sec_p1 img{
+        font-size: 10px;
+        width: 150px;
+    }     
+    .sec_p2 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
 }

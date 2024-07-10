@@ -7,7 +7,7 @@ const MidSectionState = () => {
         <div className='MidSectionState'>
             <div className='sec_p1'>
 
-                <div className='d-flex justify-content-between align-items-end mt-3'>
+                <div className='sec_p1_s1  mt-3'>
                     <div>
                         <h3>Estate Planning and Probate</h3>
                     </div>
@@ -16,7 +16,7 @@ const MidSectionState = () => {
                     </div>
                 </div>
 
-                <div className='d-flex justify-content-between align-items-start mt-2'>
+                <div className='sec_p1_s2  mt-2'>
 
                     <div>
                         <p>
