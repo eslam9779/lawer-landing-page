@@ -9,7 +9,7 @@ const FirstSection = () => {
                 <div className='row  first_section'>
 
                     <div className='col-6 home'>
-                        <p className='p1' >Navigating<span className='gradientColor'> Legal Waters</span>, Securing Your Tomorrow</p>
+                        <p className='p1' ><b>Navigating<span className='gradientColor'> Legal Waters</span>, Securing Your Tomorrow</b></p>
 
                         <p className='p2'>We advocate for consumers and underrepresented parties, amplifying their voices and safeguarding their rights.</p>
                        <div className='home_btn'>
