@@ -5,9 +5,9 @@ import arrow from '../../Assets/arrow.png'
 import './mid_section_cases.css'
 const MidSectionCases = () => {
     return (
-        <div className='mid_section_cases container row mt-5'>
+        <div className='mid_section_cases container  mt-5'>
 
-            <div className='mid_section_cases_p1 col-6'>
+            <div className='mid_section_cases_p1  '>
                 <img src={victory} />
                 <h3>Olve victorious Legal Cases</h3>
                 <p>
@@ -21,9 +21,9 @@ const MidSectionCases = () => {
                </div>
             </div>
 
-            <div className='mid_section_cases_p2 col-6'>
+            <div className='mid_section_cases_p2  '>
                 <img src={legalCases} />
-            </div>
+            </div> 
 
         </div>
     )
