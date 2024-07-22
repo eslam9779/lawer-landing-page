@@ -1,0 +1,22 @@
+.logo{
+
+    display: flex;
+    flex-direction: column;
+}
+.logo_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.logo_header{
+   font-size: 25px;
+   color: #8C8F9D;
+}  
+
+.logo_images{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
