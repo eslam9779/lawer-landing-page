@@ -1,0 +1,144 @@
+.footer{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer_header{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer_header h5 ,.subscribe h5{
+
+  color: var(--mainColor);
+  font-size: 17px;
+}
+
+ul{
+    margin-top: 2px;
+    list-style-type: none;
+}
+li{
+    margin-top: 6px;
+}
+ul a {
+    color: #8C8F9D;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.subscribe_inputs{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subscribe_inputs input{
+
+    width: 251px;
+    border-radius: 160px;
+    /* height: 44px; */
+    border: none;
+    background-color: #E2EDF9;
+    color: #7E9EC0;
+    text-align: start;
+    padding: 10px  10px;
+}
+
+.subscribe_inputs button{
+
+    width: 100px;
+    height: 40px;
+    border-radius: 160px;
+
+    margin-inline: 10px;
+    color: #fff;
+    background-color: var(--secondaryColor);
+    border: none;
+}
+
+.privacy_agree{
+
+    color: #8C8F9D;
+    margin-top: 10px;
+}
+
+.social_media{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.social_media_icons img{
+
+       margin:0 7px;
+       cursor: pointer;
+}
+
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer_end_links{
+
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:580px) {
+
+    .footer_links{
+        padding: 40px;
+    }
+    .subscribe p{
+
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media screen and (max-width:490px) {
+
+  .subscribe_inputs button{
+
+    margin-top: 10px ;
+  }
+  .subscribe_inputs input{
+
+    width: 80%;
+  }  
+    
+}
+
+@media screen and (max-width:320px) {
+
+   .social_media_icons{
+
+        margin-top: 10px;
+   }
+      
+  }
