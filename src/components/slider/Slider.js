@@ -12,7 +12,7 @@ const Slider = () => {
           <img src={Slider1} alt="Image 1" />
           <img src={Slider2} alt="Image 2" />
           <img src={Slider3} alt="Image 3" />
-          <img src={Slider4} alt="Image 4" />
+          {/* <img src={Slider4} alt="Image 4" /> */}
       </div>
   );
 }
