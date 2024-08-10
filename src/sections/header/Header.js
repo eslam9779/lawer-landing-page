@@ -20,13 +20,12 @@ const Header = () => {
                         >
                             <Nav.Link href="#home">Our Services</Nav.Link>
                             <Nav.Link href="#link">About Us</Nav.Link>
-                            <Nav.Link href="#link">Contacy Us</Nav.Link>
+                            <Nav.Link href="#link" >Contacy Us</Nav.Link>
                             <Nav.Link href="#link">More</Nav.Link>
 
-
                         </Nav>
-                        <Nav.Link href="#link">
-                            <span className='mx-1 mt-1'>Sign Up</span> <img src={circle} width={"40px"}></img>
+                        <Nav.Link href="#link" className='mt-2'>
+                            <span >Sign Up</span> <img src={circle} width={"40px"}></img>
                         </Nav.Link>
                         <Nav.Link href="#link">
                             <button>Call Us</button>
